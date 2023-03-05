@@ -14,7 +14,7 @@ function App() {
       }
     }
     getUser();
-  })
+  }, [])
   return (<div className="App">Merhaba</div>);
 }
 
